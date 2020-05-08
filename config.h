@@ -5,9 +5,15 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
-static int borderpx = 2;
+static char *font = "Hack Nerd Font:size=11";
+static char *font2[] = { 
+	"Inconsolata for Powerline:pixelsize=16:antialias=true:autohint=true",
+	"IBM Plex Mono:pixelsize=16",
+	"Hermit:pixelsize=16",
+  "JoyPixels:pixelsize=10:antialias=true:autohint=true",
+  "mono:pixelsize=14:antialias=true:autohint=true"
+};
+static int borderpx = 4;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -142,7 +148,8 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  */
 unsigned int defaultfg = 259;
-unsigned int defaultbg = 258;
+// unsigned int defaultbg = 258;
+unsigned int defaultbg = 0;
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
 
