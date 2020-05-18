@@ -10,8 +10,9 @@ static char *font2[] = {
 	"Inconsolata for Powerline:pixelsize=16:antialias=true:autohint=true",
 	"IBM Plex Mono:pixelsize=16",
 	"Hermit:pixelsize=16",
-  "JoyPixels:pixelsize=10:antialias=true:autohint=true",
-  "mono:pixelsize=14:antialias=true:autohint=true"
+  "JoyPixels:pixelsize=16:antialias=true:autohint=true",
+  "mono:pixelsize=16:antialias=true:autohint=true",
+  "Symbola:pixelsize=16:antialias=true:autohint=true"
 };
 static int borderpx = 4;
 
