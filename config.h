@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack Nerd Font:size=11";
+static char *font = "Hack Nerd Font:size=12";
 static char *font2[] = { 
 	"Inconsolata for Powerline:pixelsize=16:antialias=true:autohint=true",
 	"IBM Plex Mono:pixelsize=16",
